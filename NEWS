@@ -2,6 +2,12 @@ GNU coreutils NEWS                                    -*- outline -*-
 
 * Noteworthy changes in release ?.? (????-??-??) [?]
 
+** New features
+
+  rm now accepts -d/--dir flag which allows it to remove empty directories.
+  As removing empty directories is relatively safe this option can be used as
+  a part of the alias rm='rm --dir'.  This change also improves compatibility
+  with Mac OS X and BSD systems which all have the -d flag.
 
 * Noteworthy changes in release 8.18 (2012-08-12) [stable]
 
